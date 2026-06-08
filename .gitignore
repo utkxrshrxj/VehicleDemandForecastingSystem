@@ -1,0 +1,24 @@
+# Environments
+.venv/
+env/
+venv/
+
+# Data files (often too large for GitHub)
+*.csv
+*.xlsx
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Dashboard/App specific
+dashboard/node_modules/
+dashboard/dist/
+dashboard/.next/
+
+# Project specifics
+catboost_info/
+outputs/
