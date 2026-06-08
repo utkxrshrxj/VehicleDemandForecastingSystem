@@ -8,6 +8,10 @@ venv/
 *.xlsx
 *.db
 
+# Allow our specific dashboard data files to be pushed to GitHub
+!final_data_for_vehicle_forecasting.csv
+!forecast_details.csv
+
 # Python
 __pycache__/
 *.py[cod]
